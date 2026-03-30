@@ -39,7 +39,7 @@ import streamlit as st
 
 # 设置页面
 st.set_page_config(
-    page_title="多智能体PBL支持系统",
+    page_title="PBL多智能体支持系统",
     page_icon="🎯",
     layout="wide"
 )
@@ -1250,7 +1250,7 @@ def main():
         return
 
     # 已登录，显示主界面
-    st.title("🎯 多智能体PBL支持系统")
+    st.title("🎯 PBL多智能体支持系统")
     st.markdown("""
     本系统整合了五个专业智能体，为您的项目式学习提供全方位支持：
     1. **项目催化剂** - 帮助立项选题（提供示例参考）
